@@ -1,0 +1,12 @@
+1) The folder contains two notebook one for 
+   post-training-quantization
+   and other for quantization-aware-training.
+2) There are two folders containing tflite 
+   models, one for each type of quantization.
+3) post-training-quantization techniques 
+   works fine as a result we can see there 
+   is difference in size of original and 
+   quantized model.
+4) But there no significant decrease in size
+   of quantization-aware-training model. I 
+   will look into that...
